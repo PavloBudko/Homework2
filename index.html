@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Заняття №3:Тема – HTML</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+         <th>І'мя</th>
+         <th>Прізвище</th>
+         <th>Телефон</th>
+         <th>Email</th>
+        </tr>
+        <tr>
+         <td>Джордж</td>
+         <td>Фішер</td>
+         <th>0500112233</th>
+         <th>cannibalcorpsehammer@gmail.com</th>
+       </tr>
+       <tr>
+        <td>Фредрік</td>
+        <td>Тордендаль</td>
+        <th>0500445566</th>
+        <th>meshuggahBleed@gmail.com</th>
+      </tr>
+      <tr>
+        <td>Джо</td>
+        <td>Дюплантьє</td>
+        <th>0500778899</th>
+        <th>gojiratosirius@gmail.com</th>
+      </tr>
+      <tr>
+        <td>Джеймс</td>
+        <td>Рут</td>
+        <th>0500005666</th>
+        <th>slipknotkillpop@gmail.com</th>
+      </tr>
+    </table>
+
+     <form action="#" method="POST"> 
+        <p>
+            <input type="text" placeholder="Введіть ваше ім'я"><br>
+            <input type="text" placeholder="Введіть ваше прізвище"></p>
+
+        <p> Яка ваша стать?<br>
+            <input type="radio" name="gender" value="Чоловіча" checked id="radio1">
+            <label for="radio1"> Чоловіча</label><br>
+            <input type="radio" name="gender" value="Жіноча" id="radio2">
+            <label for="radio2"> Жіноча</label></p>
+        <p>
+            <textarea name="question" rows="8" cols="30" placeholder="Напишіть своє запитання"style='height:50px; width: 200px;'></textarea></p>
+        <p><select name="city">
+            <option selected value="Виберіть місто" disabled>Виберіть місто</option>
+            <option value="Київ">Київ</option>
+            <option value="Львів">Львів</option>
+            <option value="Одеса">Одеса</option>
+            <option value="Дніпро">Дніпро</option>
+            <option value="Харків">Харків</option>
+           </select></p>
+        <p> Вибір мови:<br>
+            <input type="checkbox" name="language" value="Українська" id="check1">
+            <label for="check1"> Українська</label><br>
+            <input type="checkbox" name="language" value="Русский" id="check2">
+            <label for="check2"> Русский</label><br>
+            <input type="checkbox" name="language" value="English" id="check3">
+            <label for="check3"> English</label><br>
+            <input type="checkbox" name="language" value="Deutsche" id="check3">
+            <label for="check4"> Deutsche</label></p>
+        <p>
+            <input type="submit" value="Відправити">
+        </p>
+
+    </form>
+</body>
+</html>
